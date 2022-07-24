@@ -56,23 +56,31 @@
 // }
 
 
-interface Cachorro {
-    nome: string;
-    idade: number;
-    parqueFav?: string;
+// interface Cachorro {
+//     nome: string;
+//     idade: number;
+//     parqueFav?: string;
+// }
+
+
+
+// class meuCachorro implements Cachorro{
+//     idade;
+//     nome;
+//     constructor(nome,idade){
+//         this.nome=nome;
+//         this.idade=idade;
+
+//     }
+// }
+
+// const cao = new meuCachorro('Apolo', 14);
+
+
+interface Estudante {
+    name:string;
+    idade:number;
 }
-
-
-
-class meuCachorro implements Cachorro{
-    idade;
-    nome;
-    constructor(nome,idade){
-        this.nome=nome;
-        this.idade=idade;
-
-    }
+interface Estudante{
+    serie:string;~
 }
-
-const cao = new meuCachorro('Apolo', 14);
-
